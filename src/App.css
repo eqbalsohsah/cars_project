@@ -1,0 +1,103 @@
+.landing_page{
+
+    background-image: url("./assets/img/Frame.png");
+
+ background-repeat: no-repeat;
+
+    background-position: top right;
+
+
+}
+body{
+    overflow-x: hidden;
+
+}
+/* hero_div */
+.hero_div{
+    animation: slideDown 1s ease-in;
+}
+ .herocar{
+
+
+    transform: translateX(100%);
+    animation: moveCar ease-out 2s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes slideDown{
+    0%{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes moveCar{
+    from {
+    transform: translateX(100%);
+    }
+
+    to{
+    transform: translateX(30%);
+
+    }}
+
+.bg-blue{
+    background-color: #1572D31A;
+}
+
+
+
+.bg-footer{
+    background-color: #051C34;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+ul li{
+    color:#D6D6D6;
+
+}
+.footer i{
+  color:#D6D6D6;
+}
+
+
+.bg_experience,.bg_cardetails{
+    background-image: url("./assets/img/Vector.png");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+   height:100%;
+   width:100%;
+}
+.experience_img,.cardetails_img{
+    transform: translateX(-20%);
+}
+/* testmonial */
+.testmonial  {
+  background-image: url("./assets/img/test_img.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.test_card{
+    width:100% !important;
+    height: 300px !important;;
+}
+
+.img_card{
+    width:50% !important;
+}
+.img_card img{
+    width: 100%  !important;
+    height: 100% !important;
+    object-fit: cover;
+}
+.card_body{
+    width: 50% !important;
+}
