@@ -21,7 +21,7 @@ export default function Home() {
   <Experience/>
   <Testmonial/>
   <DownloadApp/>
-  
+
   <Footer/>
     </div>
   )
